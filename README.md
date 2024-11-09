@@ -15,7 +15,7 @@ This Python-based application uses **WebSockets** and the **yfinance** library t
 
 ```bash
 git clone https://github.com/your-username/real-time-stock-tracker.git
-
+```bash
 
 ### Create a virtual environment (recommended):
 python -m venv venv
