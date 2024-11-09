@@ -48,10 +48,10 @@ Open a web browser and navigate to http://127.0.0.1:5000/ to view the real-time 
 
 ## Customization
 
-Ticker Symbols: Modify the ticker variable in the handle_get_data function to track different stocks.
-Update Interval: Adjust the time.sleep interval in handle_get_data to control the frequency of price updates.
-Visualization: Customize the Matplotlib plots (line styles, colors, etc.) to your preference.
-Web Interface: Enhance the index.html template to add features like historical data, technical indicators, or alerts.
+- **Ticker Symbols**: Modify the ticker variable in the handle_get_data function to track different stocks.
+- **Update Interval**:  Adjust the time.sleep interval in handle_get_data to control the frequency of price updates.
+- **Visualization**: Customize the Matplotlib plots (line styles, colors, etc.) to your preference.
+- **Web Interface**: Enhance the index.html template to add features like historical data, technical indicators, or alerts.
 Contributing
 
 ## We welcome contributions to this project! Feel free to:
