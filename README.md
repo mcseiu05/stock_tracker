@@ -1,26 +1,26 @@
-#Real-Time Stock Price Tracker
-##Overview
+# Real-Time Stock Price Tracker
+## Overview
 
 This Python-based application uses **WebSockets** and the **yfinance** library to track real-time stock prices and display them dynamically in a web browser.
 
-###Features:
+### Features:
 
 - **Real-Time Updates**:  Continuously fetches and displays the latest stock prices.
 - **Interactive Visualization**: Utilizes Matplotlib to generate dynamic charts for visual representation of stock price movements.
 - **User-Friendly Interface**: Provides a simple web interface to conveniently view the stock data.
 
 
-##Installation
+## Installation
 
 ### Clone the repository:
 
-Bash
+```bash
 git clone https://github.com/your-username/real-time-stock-tracker.git
 Use code with caution.
 
 Create a Virtual Environment:
 
-Bash
+```bash
 python -m venv venv
 Use code with caution.
 
@@ -28,14 +28,14 @@ Activate the Virtual Environment:
 
 Windows:
 
-Bash
+```bash
 venv\Scripts\activate
 Use code with caution.
 
 
 ### Install Dependencies:   
 
-Bash
+```bash
 pip install flask flask-socketio yfinance matplotlib
 Use code with caution.
 
@@ -43,7 +43,7 @@ Use code with caution.
 
 ### Run the Application:
 
-Bash
+```bash
 python app.py
 Use code with caution.
 
