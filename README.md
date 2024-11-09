@@ -13,7 +13,6 @@ This Python-based application uses **WebSockets** and the **yfinance** library t
 
 ### Clone the repository:
 
-```bash
 git clone https://github.com/your-username/real-time-stock-tracker.git
 ```bash
 
@@ -37,6 +36,6 @@ Open your web browser and go to: http://127.0.0.1:5000/
 ## Contributing
 ### We welcome contributions to this project! Feel free to:
 
-Fork the repository.
-Make changes to your fork.
-Submit a pull request with your improvements.
+- **Fork the repository.
+- **Make changes to your fork.
+- **Submit a pull request with your improvements.
