@@ -14,38 +14,33 @@ This Python-based application uses **WebSockets** and the **yfinance** library t
 
 ### Clone the repository:
 
-```bash
-git clone https://github.com/your-username/real-time-stock-tracker.git
-Use code with caution.
+`git clone https://github.com/your-username/real-time-stock-tracker.git`
+
 
 Create a Virtual Environment:
 
-```bash
-python -m venv venv
-Use code with caution.
+
+`python -m venv venv`
+
 
 Activate the Virtual Environment:
 
 Windows:
 
-```bash
-venv\Scripts\activate
-Use code with caution.
+`venv\Scripts\activate`
 
 
 ### Install Dependencies:   
 
-```bash
-pip install flask flask-socketio yfinance matplotlib
-Use code with caution.
+`pip install flask flask-socketio yfinance matplotlib`
+
 
 ## Usage
 
 ### Run the Application:
 
-```bash
-python app.py
-Use code with caution.
+`python app.py`
+
 
 ### Access the Web Interface:
 
@@ -67,3 +62,4 @@ Contributing
 - Commit your changes with clear commit messages.
 - Push your changes to your forked repository.
 - Submit a pull request to the main repository.
+
