@@ -57,7 +57,7 @@ Contributing
 
 ## Output
 
-![App Output](templates/output.png)
+![App Output](templates/output.PNG)
 
 
 ## We welcome contributions to this project! Feel free to:
