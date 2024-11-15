@@ -54,6 +54,12 @@ Open a web browser and navigate to http://127.0.0.1:5000/ to view the real-time 
 - **Web Interface**: Enhance the index.html template to add features like historical data, technical indicators, or alerts.
 Contributing
 
+
+## Output
+
+![App Output](templates/output.png)
+
+
 ## We welcome contributions to this project! Feel free to:
 
 - Fork the repository.
