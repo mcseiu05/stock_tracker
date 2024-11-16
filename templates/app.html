@@ -6,12 +6,12 @@
     <title>Real-Time Stock Tracker</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             text-align: center;
-            font-family: Arial, sans-serif;
             margin: 0;
             height: 100vh;
         }
@@ -20,8 +20,8 @@
             margin: 20px 0;
         }
         img {
-            width: 100%;
             max-width: 800px;
+            width: 100%;
             margin-top: 20px;
         }
     </style>
@@ -29,28 +29,26 @@
 <body>
     <h1>Real-Time Stock Tracker</h1>
     <div id="stock-price">Loading...</div>
-    <img id="stock-chart" src="" alt="Stock Chart">
+    <img id="stock-chart" alt="Stock Chart">
 
     <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
     <script>
-        var socket = io();
+        const socket = io();
 
-        socket.on('connect', function() {
+        socket.on('connect', () => {
             console.log('Connected to server');
-            socket.emit('get_data', 'GOOGL'); // Replace 'GOOGL' with desired ticker
+            socket.emit('get_data', 'GOOGL'); // Replace 'GOOGL' with your desired ticker symbol
         });
 
-        socket.on('update_price', function(data) {
-            console.log('Received price update:', data);  // Debug print
-            document.getElementById('stock-price').innerHTML = 'Current Price: $' + data.price;
+        socket.on('update_price', (data) => {
+            document.getElementById('stock-price').textContent = `Current Price: $${data.price}`;
         });
 
-        socket.on('update_chart', function(data) {
-            console.log('Received chart update');  // Debug print
-            document.getElementById('stock-chart').src = 'data:image/png;base64,' + data.plot_url;
+        socket.on('update_chart', (data) => {
+            document.getElementById('stock-chart').src = `data:image/png;base64,${data.plot_url}`;
         });
 
-        socket.on('disconnect', function() {
+        socket.on('disconnect', () => {
             console.log('Disconnected from server');
         });
     </script>
